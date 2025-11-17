@@ -2,7 +2,7 @@
     font-family: $logo-style;
     color: $logo-color;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .header {
@@ -41,6 +41,7 @@
 
 .contacts__icon {
     display: block;
+    fill: $logo-color;
     width: 24px;
     height: 24px;
 }

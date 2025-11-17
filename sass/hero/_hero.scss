@@ -27,3 +27,15 @@
 .hero__info {
     font-size: 18px;
 }
+
+.hero__button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: rgba(103, 213, 215, 0.6);
+    border-radius: 5px;
+}
+
+.hero-button-link{
+    color: $text-color;
+    font-size: 14px;
+}

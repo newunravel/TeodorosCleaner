@@ -97,6 +97,21 @@ h6 {
   margin-left: auto;
   padding: 0 20px;
 }
+@media screen and (min-width: 450px) {
+  .container {
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
 
 .title {
   font-family: "Oswald", sans-serif;
@@ -112,10 +127,10 @@ h6 {
 }
 
 .logo {
-  font-family: "Rubik 80s Fade", sans-serif;
-  color: #4b6f47;
+  font-family: "MuseoModerno", sans-serif;
+  color: #24b1b8;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .header {
@@ -170,6 +185,7 @@ h6 {
 
 .contacts__icon {
   display: block;
+  fill: #24b1b8;
   width: 24px;
   height: 24px;
 }
@@ -206,8 +222,19 @@ h6 {
   font-size: 18px;
 }
 
+.hero__button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: rgba(103, 213, 215, 0.6);
+  border-radius: 5px;
+}
+
+.hero-button-link {
+  color: #302828;
+  font-size: 14px;
+}
+
 .cleaning__item {
-  border: 3px #000 solid;
   border-radius: 10px;
   padding: 0 0 20px 0;
 }
@@ -244,11 +271,6 @@ h6 {
   text-align: center;
 }
 
-.why-me {
-  background: -webkit-gradient(linear, left bottom, left top, from(#67d5d7), to(#ffffff));
-  background: linear-gradient(to top, #67d5d7, #ffffff);
-}
-
 .why-me__list .why-me__item + .why-me__item {
   margin-top: 15px;
 }
@@ -259,7 +281,8 @@ h6 {
 }
 
 .footer {
-  background-color: #67d5d7;
+  background: -webkit-gradient(linear, left bottom, left top, from(#67d5d7), to(#ffffff));
+  background: linear-gradient(to top, #67d5d7, #ffffff);
   padding: 40px 0;
 }
 
@@ -275,10 +298,10 @@ h6 {
 }
 
 .footer__logo {
-  font-family: "Rubik 80s Fade", sans-serif;
+  font-family: "MuseoModerno", sans-serif;
   font-size: 24px;
   font-weight: 600;
-  color: #4b6f47;
+  color: #24b1b8;
 }
 
 .footer__box {
@@ -289,4 +312,37 @@ h6 {
   font-family: "Oswald", sans-serif;
   font-size: 16px;
   color: #000;
+}
+
+.gallery {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.gallery h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.gallery-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 10px;
+}
+
+.gallery-container img {
+  width: 280px;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  scroll-snap-align: start;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }/*# sourceMappingURL=main.css.map */
