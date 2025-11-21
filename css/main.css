@@ -150,7 +150,7 @@ h6 {
           align-items: center;
   gap: 10px;
   font-family: "MuseoModerno", sans-serif;
-  color: #c67b02;
+  color: #ba9b20;
   font-weight: 600;
   font-size: 22px;
 }
@@ -213,7 +213,7 @@ h6 {
 
 .contacts__icon {
   display: block;
-  fill: #5a4035;
+  fill: #ba9b20;
   width: 24px;
   height: 24px;
 }
@@ -326,7 +326,7 @@ h6 {
   font-family: "MuseoModerno", sans-serif;
   font-size: 24px;
   font-weight: 600;
-  color: #c67b02;
+  color: #ba9b20;
 }
 
 .footer__box {
